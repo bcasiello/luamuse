@@ -1,8 +1,8 @@
-local package_name = "[module-name]"
+local package_name = "luamuse"
 local package_version = "scm"
 local rockspec_revision = "1"
-local github_account_name = "[github-account-name]"
-local github_repo_name = "[repo-name]"
+local github_account_name = "bcasiello"
+local github_repo_name = "luamuse"
 
 
 package = package_name
@@ -15,9 +15,9 @@ source = {
 }
 
 description = {
-  summary = "[short-description]",
+  summary = "A websockets-based Multi-User Shared Environment in Lua",
   detailed = [[
-    [short-description]
+    A websockets-based Multi-User Shared Environment in Lua
   ]],
   license = "MIT",
   homepage = "https://github.com/"..github_account_name.."/"..github_repo_name,
@@ -31,11 +31,11 @@ build = {
   type = "builtin",
 
   modules = {
-    ["[module-name].init"] = "src/[module-name]/init.lua",
+    ["luamuse.init"] = "src/luamuse/init.lua",
   },
 
   copy_directories = {
-    -- can be accessed by `luarocks [module-name] doc` from the commandline
+    -- can be accessed by `luarocks luamuse doc` from the commandline
     "docs",
   },
 }

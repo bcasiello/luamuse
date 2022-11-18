@@ -2,14 +2,14 @@
 --
 -- Explain some basics, or the design.
 --
--- @copyright Copyright (c) [copyright-year]-[copyright-year] [your-name]
--- @author [your-name]
+-- @copyright Copyright (c) 2022-2022 Brian Casiello
+-- @author Brian Casiello
 -- @license MIT, see `LICENSE.md`.
 
 local M = {}
 M._VERSION = "0.0.1"
-M._COPYRIGHT = "Copyright (c) [copyright-year]-[copyright-year] [your-name]"
-M._DESCRIPTION = "[short-description]"
+M._COPYRIGHT = "Copyright (c) 2022-2022 Brian Casiello"
+M._DESCRIPTION = "A websockets-based Multi-User Shared Environment in Lua"
 
 
 --- Does something.

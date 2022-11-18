@@ -1,6 +1,6 @@
-project='[repo-name]'
-title='[module-name] docs'
-description='[short-description]'
+project='luamuse'
+title='luamuse docs'
+description='A websockets-based Multi-User Shared Environment in Lua'
 
 format='markdown'
 use_markdown_titles = true
